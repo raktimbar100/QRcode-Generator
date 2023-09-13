@@ -33,3 +33,4 @@ img = qr.make_image(fill_color="black", back_color="white")
 img.save("test.png")
 
 This will generate a QR code for the URL "https://github.com/raktimbar100" with the specified parameters.
+<a href="test.png"></a>
