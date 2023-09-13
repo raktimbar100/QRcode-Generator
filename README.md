@@ -1,4 +1,5 @@
 # QRcode-Generator
+![QR Code](https://github.com/raktimbar100/QRcode-Generator/blob/main/test.png)
 This Python script generates a QR code for a specified URL using the qrcode library. QR codes are commonly used to store URLs, text, or other data that can be easily scanned by a mobile device or QR code reader.
 Prerequisites
 Before running the script, make sure you have the qrcode library installed. You can install it using pip:
