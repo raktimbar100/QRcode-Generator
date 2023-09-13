@@ -20,7 +20,7 @@ Run the script. This will generate a QR code image with the specified data and p
 
 The generated QR code image will be saved as "test.png" in the current directory.
 import qrcode
-
+<p>
 qr = qrcode.QRCode(
     version=15,
     box_size=10,
@@ -32,6 +32,6 @@ qr.add_data(data)
 qr.make(fit=True)
 img = qr.make_image(fill_color="black", back_color="white")
 img.save("test.png")
-
+</p>
 This will generate a QR code for the URL "https://github.com/raktimbar100" with the specified parameters.
 <a href="[test.png](https://github.com/raktimbar100/QRcode-Generator/blob/main/test.png)"></a>
